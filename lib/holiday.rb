@@ -43,7 +43,7 @@ holiday_hash
 end
 
 def all_winter_holiday_supplies(holiday_hash)
-holiday_hash.values
+holiday_hash.values.winter
 end
 
 def all_supplies_in_holidays(holiday_hash)
