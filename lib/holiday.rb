@@ -50,7 +50,7 @@ array.flatten
 end
 
 def all_supplies_in_holidays(holiday_hash)
-holiday_hash.each do |season, holiday|
+holiday_hash.each do |season, data|
   puts "#{season.to_s.capitalize}:"
   data.each do |holiday, supply|
     puts "  #{holiday.to_s.split(" ").map{|holiday| holiday.capitalize}.join("")}: #{supply.join(", ")}"
